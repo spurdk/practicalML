@@ -1,0 +1,34 @@
+---
+title: "Practical Machine Learning"
+author: "Anders Spur Hansen"
+date: "11 feb 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+Coursera course: Reproducible Research (Student: SpurDK)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Summary
+# Data description
+# Data Processing 
+# Results
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+# Technical informations
+This section will provide basic technical information about the it-system on which this analysis has been performed.  
+```{r, echo=TRUE }
+
+sessionInfo()
